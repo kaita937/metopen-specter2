@@ -1,0 +1,28 @@
+# Dataset & raw files (do not commit to Git)
+data/scifact/
+*.parquet
+*.zip
+
+# Large binary embeddings (keep JSON metadata/logs if needed, ignore .npy)
+embeddings/*.npy
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python cache & build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS & IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
