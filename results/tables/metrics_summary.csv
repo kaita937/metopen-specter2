@@ -1,0 +1,6 @@
+model_or_config,config_code,ndcg@10,mrr@10,recall@5,delta_ndcg10_vs_config_A,delta_ndcg10_vs_bm25,pytrec_max_abs_diff
+"BM25 Lexical Baseline (Thakur et al., 2021)",BM25,0.6650,N/A,N/A,N/A,+0.0000,N/A
+"TAS-B Dense Baseline (Thakur et al., 2021)",TAS-B,0.6430,N/A,N/A,N/A,-0.0220,N/A
+SPECTER2 — Config A (Title),A,0.5705,0.5352,0.6345,+0.0000,-0.0945,0.00000000
+SPECTER2 — Config B (Abstract),B,0.6209,0.5828,0.6953,+0.0504,-0.0441,0.00000000
+SPECTER2 — Config C (Title + [SEP] + Abstract),C,0.6455,0.6095,0.7155,+0.0750,-0.0195,0.00000000

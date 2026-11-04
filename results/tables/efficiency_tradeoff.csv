@@ -1,0 +1,4 @@
+config,mean_tokens,truncated_pct,gpu_total_time_s,latency_ms_per_doc,speedup_vs_C,ndcg@10
+Config A (Title),19.49,0.00,12.24,2.36,13.12x,0.5705
+Config B (Abstract),278.70,3.90,153.17,29.55,1.05x,0.6209
+Config C (Title + [SEP] + Abstract),297.19,4.73,160.66,31.00,1.00x,0.6455
