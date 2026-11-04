@@ -1,0 +1,62 @@
+{
+  "hardware": {
+    "device": "cuda",
+    "gpu_name": "Tesla T4",
+    "python_version": "3.13.16",
+    "torch_version": "2.11.0+cu130",
+    "cuda_version": "13.0",
+    "transformers_version": "4.57.6",
+    "adapters_version": "1.3.0"
+  },
+  "hyperparameters": {
+    "base_model": "allenai/specter2_base",
+    "query_adapter": "allenai/specter2_adhoc_query",
+    "doc_adapter": "allenai/specter2",
+    "sep_token": "[SEP]",
+    "pooling": "cls_last_hidden_state",
+    "max_length": 512,
+    "batch_size": 32
+  },
+  "query_encoding": {
+    "num_queries": 300,
+    "total_time_sec": 0.8318,
+    "ms_per_query": 2.7727,
+    "avg_tokens": 19.29,
+    "median_tokens": 18.0,
+    "max_tokens": 47,
+    "truncated_count": 0,
+    "pct_truncated": 0.0
+  },
+  "configs": {
+    "A": {
+      "num_docs": 5183,
+      "total_time_sec": 12.2439,
+      "ms_per_doc": 2.3623,
+      "avg_tokens": 19.49,
+      "median_tokens": 19.0,
+      "max_tokens": 70,
+      "truncated_count": 0,
+      "pct_truncated": 0.0
+    },
+    "B": {
+      "num_docs": 5183,
+      "total_time_sec": 153.1742,
+      "ms_per_doc": 29.5532,
+      "avg_tokens": 278.7,
+      "median_tokens": 258.0,
+      "max_tokens": 1834,
+      "truncated_count": 202,
+      "pct_truncated": 3.9
+    },
+    "C": {
+      "num_docs": 5183,
+      "total_time_sec": 160.6602,
+      "ms_per_doc": 30.9975,
+      "avg_tokens": 297.19,
+      "median_tokens": 276.0,
+      "max_tokens": 1858,
+      "truncated_count": 245,
+      "pct_truncated": 4.73
+    }
+  }
+}
