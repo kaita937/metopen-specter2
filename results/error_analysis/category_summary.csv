@@ -1,0 +1,5 @@
+category_id,category_label,query_count,percentage_of_300
+Category 1,"C/B Succeeds (rank <= 10), A Fails (rank > 10)",33,11.00
+Category 2,A Outperforms B & C (rank_A < rank_B and rank_A < rank_C),55,18.33
+Category 3,"All Configurations Fail (rank > 10 in A, B, and C)",47,15.67
+Category 4,Top-3 in C (rank_C <= 3) Despite Minimal Lexical Overlap (Jaccard <= 0.12),192,64.00
