@@ -1,0 +1,4 @@
+comparison,mean_ndcg10_first,mean_ndcg10_second,mean_diff_second_minus_first,median_diff,wilcoxon_W_stat,p_value_raw,p_value_bonferroni,alpha_bonferroni,significant_post_bonferroni,wins_second_vs_first_ties,gpu_time_sec_pair,time_ratio_second_over_first
+A vs C,0.5705,0.6455,+0.0750,+0.0000,2642.5,2.937359e-05,8.812078e-05,0.0167,Yes,88/46/166,12.24 vs 160.66,13.12x
+B vs C,0.6209,0.6455,+0.0246,+0.0000,1677.0,3.605731e-02,1.081719e-01,0.0167,No,55/39/206,153.17 vs 160.66,1.05x
+A vs B,0.5705,0.6209,+0.0504,+0.0000,4524.5,3.254210e-02,9.762630e-02,0.0167,No,82/68/150,12.24 vs 153.17,12.51x
